@@ -46,6 +46,6 @@ public class SpiceDemo {
 		  driver.findElement(By.xpath("//*[@id=\"ctl00_mainContent_chk_friendsandfamily\"]")).click();
 		  
 		 driver.findElement(By.xpath("//*[@id=\"ctl00_mainContent_btn_FindFlights\"]")).click();
-		 
+		 System.out.println("vivek");
 	}
 }
