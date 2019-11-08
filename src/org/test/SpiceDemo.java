@@ -16,8 +16,8 @@ public class SpiceDemo {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.spicejet.com/");
-		
-		driver.manage().window().maximize();
+
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 		WebElement depature = driver.findElement(By.xpath("//input[@id='ctl00_mainContent_ddl_originStation1_CTXT']"));
 		depature.sendKeys("Adampur (AIP)");
@@ -47,5 +47,7 @@ public class SpiceDemo {
 		  
 		 driver.findElement(By.xpath("//*[@id=\"ctl00_mainContent_btn_FindFlights\"]")).click();
 		 
+		 
+		 driver.manage().window().maximize();
 	}
 }
