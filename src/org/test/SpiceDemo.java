@@ -52,5 +52,6 @@ public class SpiceDemo {
 		 System.out.println("Hi");
 		 driver.manage().window().maximize();
 		 System.out.println("Next Generation");
+		 System.out.println("New added update");
 	}
 }
