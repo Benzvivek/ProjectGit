@@ -47,6 +47,8 @@ public class SpiceDemo {
 		  
 		 driver.findElement(By.xpath("//*[@id=\"ctl00_mainContent_btn_FindFlights\"]")).click();
 		 
+		 System.out.println("New Update");
+		 System.out.println("Project is End");
 		 System.out.println("Hi");
 		 driver.manage().window().maximize();
 		 System.out.println("Next Generation");
