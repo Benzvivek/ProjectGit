@@ -43,6 +43,7 @@ public class SpiceDemo {
 		  WebElement sear = driver.findElement(By.xpath("//*[@id=\"ctl00_mainContent_chk_friendsandfamily\"]"));
 		  sear.click();
 		  
+		  System.out.println("Vivek");
 		  driver.findElement(By.xpath("//*[@id=\"ctl00_mainContent_chk_friendsandfamily\"]")).click();
 		  
 		 driver.findElement(By.xpath("//*[@id=\"ctl00_mainContent_btn_FindFlights\"]")).click();
